@@ -1,0 +1,22 @@
+{
+  "name": "react-native-swipeable-modal",
+  "version": "1.0.1",
+  "description": "Display modals which can be swiped in any direction",
+  "author": "Alan Chauchet",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "modal",
+    "swipeable"
+  ],
+  "dependencies": {
+    "memoize-one": "^4.0.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react-native-gesture-handler": "^1.0.7",
+    "react-native": ">=0.55.3",
+    "react": ">=16.3.2"
+  },
+  "license": "MIT"
+}
