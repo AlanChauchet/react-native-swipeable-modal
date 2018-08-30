@@ -1,7 +1,7 @@
-[comment]: <> (<a href="https://nodei.co/npm/:url/">
+[//]: # (<a href="https://nodei.co/npm/:url/">
   <img src="https://nodei.co/npm/:url.svg?downloads=true&downloadRank=true&stars=true">
 </a>)
-[comment]: <> (<p>
+[//]: # (<p>
   <a href="https://badge.fury.io/js/:url">
     <img src="https://badge.fury.io/js/:url.svg" alt="npm version" height="18">
   </a>
