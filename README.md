@@ -43,7 +43,12 @@ class Container extends Component {
   render() {
     return (
       <View style={{ flex: 1 }}>
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center, backgroundColor: '#FFFFFF' }}>
+        <View style={{
+          flex: 1,
+          alignItems: 'center',
+          justifyContent: 'center',
+          backgroundColor: '#FFFFFF'
+        }}>
           <Button title="Show Modal" onPress={() => this.setState({ showModal: true })} />
         </View>
         {this.state.showModal && <SwipeableModal
@@ -51,7 +56,7 @@ class Container extends Component {
           style={{
             backgroundColor: '#888888',
             justifyContent: 'center',
-            alignItems: 'center',
+            alignItems: 'center'
           }}
         >
           <Button title="Close" raised onPress={this.closeModal} />
