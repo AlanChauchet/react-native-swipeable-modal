@@ -1,3 +1,16 @@
+<a href="https://nodei.co/npm/react-native-swipeable-modal/">
+  <img src="https://nodei.co/npm/react-native-swipeable-modal.svg?downloads=true&downloadRank=true&stars=true">
+</a>
+<br/>
+<p>
+  <a href="https://badge.fury.io/js/react-native-swipeable-modal">
+    <img src="https://badge.fury.io/js/react-native-swipeable-modal.svg" alt="npm version" height="18">
+  </a>
+  <a href="https://npmjs.org/react-native-swipeable-modal">
+    <img src="https://img.shields.io/npm/dm/react-native-swipeable-modal.svg" alt="npm downloads" height="18">
+  </a>
+</p>
+
 ### React Native Swipeable Modal 
 
 react-native-swipeable-modal is a JavaScript library for react-native allowing you to display modals which can be swiped away in any direction
@@ -56,7 +69,7 @@ class Container extends Component {
           style={{
             backgroundColor: '#888888',
             justifyContent: 'center',
-            alignItems: 'center'
+            alignItems: 'center',
           }}
         >
           <Button title="Close" raised onPress={this.closeModal} />
